@@ -7,8 +7,9 @@ permalink: "feature-request-list"
 ---
 
 Here's a list of the features that can be enabled by Salesforce by submitting a Support Case:
-- Environment Hub
-- Person Accounts
-- Case Age in Business Hours
+
+* Environment Hub
+* Person Accounts
+* Case Age in Business Hours
 
 {% include JB/setup %}
