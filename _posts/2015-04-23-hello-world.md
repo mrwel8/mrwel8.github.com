@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Hello World"
+title: Hello World
 date: "2015-04-22"
 comments: false
-permalink: hello-world
+permalink: "hello-world"
+published: true
 ---
 
-Let's do this thing!
+Happy trails with Salesforce!
 
 {% include JB/setup %}
