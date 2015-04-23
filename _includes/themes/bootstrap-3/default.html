@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>	
+		{% if page.title == "All Posts" %}
+			{{ site.title }}
+		{% else %}
+			{{ page.title }} - {{ site.title }}
+		{% endif %}
+	</title>
+	
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.1/paper/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <!-- Sticky Footer -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+	
+    
+    <!-- Custom styles -->
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+	<link rel="shortcut icon" href="{{ ASSET_PATH }}/images/favicon.ico">
+	<link rel="apple-touch-icon" href="{{ ASSET_PATH }}/images/favicon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ ASSET_PATH }}/images/favicon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{ ASSET_PATH }}/images/favicon.png">
+
+    <!-- atom & rss feed -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <!-- Commenting out hamburger
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>-->
+          <a class="navbar-brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+   	  <a href="https://github.com/mrwel8" rel="me" class="social github" title="Go to my Github repo" target="_blank"></a>
+	  <a href="https://www.linkedin.com/in/julienouellet" rel="me" class="social linkedin" title="Go to my LinkedIn profile" target="_blank"></a>
+	  <a href="http://urlgeni.us/twitter/trailsforce" rel="me" class="social twitter" title="Go to my Twitter account" target="_blank"></a>
+          </ul>
+		  
+        </div>
+		
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Commenting out Nav Bar
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+			  <a href="https://github.com/mrwel8" rel="me" class="social github" title="Go to my Github repo" target="_blank"></a>
+			  <a href="https://www.linkedin.com/in/julienouellet" rel="me" class="social linkedin" title="Go to my LinkedIn profile" target="_blank"></a>
+			  <a href="http://urlgeni.us/twitter/trailsforce" rel="me" class="social twitter" title="Go to my Twitter account" target="_blank"></a>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
+        </div> /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        </p>
+      </div>
+    </div>
+
+    {% include JB/analytics %}
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
