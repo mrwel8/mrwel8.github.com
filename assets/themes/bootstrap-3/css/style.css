@@ -127,3 +127,7 @@ a:hover, a:focus {
   font-size: .5em;
   margin-left: 5px;
 }
+
+img {
+  width: 100%;
+}
