@@ -1,7 +1,7 @@
 /* Custom container */
 
-/* Replaced with normal container and standard footer */
-.container {
+/* Fix for static header */
+.navbar + .container {
   padding-top: 64px; 
 }
 
