@@ -125,4 +125,5 @@ a:hover, a:focus {
   font-weight: bold;
   color: red;
   font-size: .5em;
+  margin-left: 5px;
 }
