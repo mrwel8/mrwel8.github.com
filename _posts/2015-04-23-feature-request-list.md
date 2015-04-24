@@ -36,6 +36,7 @@ Here's a list of the features that can be enabled in Salesforce by submitting a 
 * <a href="https://help.salesforce.com/HTViewSolution?id=000193571&language=en_US" target="_blank">Match Production Licenses</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213428&language=en_US" target="_blank">Only Email Users On Events</a>
 * Assigning Record Ownership to Inactive Users
+* <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=Increasing-Archive-Days-for-your-Organization&language=en_US" target="_blank">Activity Archiving Time Limit</a>
 
 ### Developer-focused Features
 * <a href="https://partners.salesforce.com/s/education/general/Environment_Hub" target="_blank">Environment Hub</a>
