@@ -118,3 +118,11 @@ a:hover, a:focus {
   color:#4A913C;
   text-decoration: underline;
 }
+
+.newFlag {
+  position: relative;
+  bottom: 3px;
+  font-weight: bold;
+  color: red;
+  font-size: .5em;
+}
