@@ -28,10 +28,11 @@ Here's a list of the features that can be enabled in Salesforce by submitting a 
 * <a href="https://org62.my.salesforce.com/help/pdfs/en/limits_limitations.pdf" target="_blank">Many limits</a> including (may incur extra costs):
     * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213287&language=en_US" target="_blank">Roll-Up Summary Field Limit</a>
 	* Workflow Actions
-    * Email Number & Size
+    * Email Number & Attachment Size
     * Dashboard Filters
 
 ### Admin-focused Features
+* <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=Middle-Name-and-Suffix-Fields&language=en_US" target="_blank">Contact Middle Name &amp; Suffix Fields</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=any-user&language=en_US" target="_blank">Administrators Can Log in as Any User</a>
 * <a href="https://help.salesforce.com/HTViewSolution?id=000193571&language=en_US" target="_blank">Match Production Licenses</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213428&language=en_US" target="_blank">Only Email Users On Events</a>
@@ -40,8 +41,11 @@ Here's a list of the features that can be enabled in Salesforce by submitting a 
 
 ### Developer-focused Features
 * <a href="https://partners.salesforce.com/s/education/general/Environment_Hub" target="_blank">Environment Hub</a>
+* <a href="https://developer.salesforce.com/blogs/engineering/2013/02/force-com-soql-best-practices-nulls-and-formula-fields.html" target="_blank">Custom Field Indexing</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=Considerations-before-having-Create-Audit-Fields-enabled&language=en_US" target="_blank">Create Audit Fields</a>
+* <a href="http://www.salesforce.com/docs/en/cce/ldv_deployments/salesforce_large_data_volumes_bp.pdf" target="_blank">Skinny Tables</a>
 * &save=1 Button Behavior
+* <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=Considerations-before-having-Create-Audit-Fields-enabled&language=en_US" target="_blank">External ID Field Limit</a>
 
 Let me know in the Comments below if you know of any other good ones!
 
