@@ -34,6 +34,9 @@ Here's a list of the features that can be enabled in Salesforce by submitting a 
 ### Admin-focused Features
 * <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=Middle-Name-and-Suffix-Fields&language=en_US" target="_blank">Contact Middle Name &amp; Suffix Fields</a><span class="newFlag">New!</span>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?urlname=any-user&language=en_US" target="_blank">Administrators Can Log in as Any User</a>
+
+> <a href="/summer-15/" target="_blank">Will be available in the UI in Summer '15!</a>
+
 * <a href="https://help.salesforce.com/HTViewSolution?id=000193571&language=en_US" target="_blank">Match Production Licenses</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213428&language=en_US" target="_blank">Only Email Users On Events</a>
 * Assigning Record Ownership to Inactive Users
