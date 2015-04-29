@@ -25,7 +25,7 @@ Here's a list of the features that can be enabled in Salesforce by submitting a 
 ### Other Common Features
 * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000171021&language=en_US" target="_blank">Person Accounts</a>
 * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213423&language=en_US" target="_blank">Profile-Based Chatter Rollout</a>
-* <a href="https://help.salesforce.com/HTViewHelpDoc?id=getting_started_with_divisions.htm&language=en_USS" target="_blank">Divisions (for Standard Objects)</a><span class="newFlag">New!</span>
+* <a href="https://help.salesforce.com/HTViewHelpDoc?id=getting_started_with_divisions.htm&language=en_USS" target="_blank">Divisions</a><span class="newFlag">New!</span>
 * <a href="https://org62.my.salesforce.com/help/pdfs/en/limits_limitations.pdf" target="_blank">Many limits</a> including (may incur extra costs):
     * <a href="https://help.salesforce.com/apex/HTViewSolution?id=000213287&language=en_US" target="_blank">Roll-Up Summary Field Limit</a>
 	* Workflow Actions
