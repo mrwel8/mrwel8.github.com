@@ -22,11 +22,13 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 * Desktop Administration > Outlook Configurations
 
 ### Build Section
-* Customized Tab & Label Naming
-* Home Page Components & Custom Links
-* Activity Settings
-* Email-2-Case Settings & Routing Addresses
-* Connected Apps
+* Customize > Tab Names and Labels
+* Customize > Home > Home Page Components > Standard Components
+* Customize > Activities > Activity Settings
+* Customize > **All Standard Field Values** (including Picklist Values & Auto-Number Formats)
+* Customize > **All Partner & Contact Roles** (including Account & Case Teams)
+* Customize > Cases > Email-2-Case
+* Create > Apps > Connected Apps
 
 ### Other Items
 * Chatter Groups
