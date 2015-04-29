@@ -14,12 +14,11 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 > If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types.
 
 ### Administer Section
-* Company Profile > Business Hours
+* Company Profile > Fiscal Year, Business Hours, Holidays
 * Security Controls > Sharing Settings > Organization-Wide Defaults
-* Security Controls > Password Policies
-* Security Controls > Session Settings
+* Security Controls > Password Policies, Session Settings
 * **All** Mobile Administration
-* Desktop Administration > Outlook Configurations
+* **All** Desktop Administration (including Outlook Configurations)
 
 ### Build Section
 * Customize > Tab Names and Labels
@@ -27,8 +26,13 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 * Customize > Activities > Activity Settings
 * Customize > **All Standard Field Values** (including Picklist Values & Auto-Number Formats)
 * Customize > **All Partner & Contact Roles** (including Account & Case Teams)
+* Customize > Cases > Support Settings
 * Customize > Cases > Email-2-Case
+* Customize > Search > Search Settings
+* Customize > Chatter > Settings, Chat Settings, Email Settings 
 * Create > Apps > Connected Apps
 
-### Other Items
+### Other Items to Verify
 * Chatter Groups
+* URL Custom Buttons
+* Approval Process Ordering
