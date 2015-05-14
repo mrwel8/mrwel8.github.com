@@ -32,7 +32,7 @@ When Analytics Cloud was first being marketed, Salesforce emphasized that any da
 <img src="https://help.salesforce.com/resource/HTHelpDocImages_194_20_en_US_8/bi_dashboard_example.png" alt="Analytics Cloud Dashboard"/>
 
 ### It's not going to replace Salesforce Dashboards
-With all of 
+With all of these fancy-looking pie charts, you might think that Analytics Cloud is going to replace those Reports & Dashboards on your other Salesforce clouds – Gladly / sadly that is definitely not the case. Think of AC as the **strategic** tool to report across business processes over time, whereas Salesforce Dashboards are for one-time analyses of operational data (for tracking & measuring things vs. basing long-term strategy on).
 
 ### The technology has been around for a while
 Although the Salesforce page on this topic looks <a href="http://www.salesforce.com/analytics-cloud/technology/" target="_blank">pretty impressive</a>, the technology that powers Wave is actually not as novel as you might think. Key-value store databases have been around since the 70s, SAQL is essentially a customization of Apache Pig, and EdgeSpring (the company bought by Salesforce in 2013 for an undisclosed sum) had been developing the Edgemart and visualization features since at least 2010. The difference of course has been combining them all together into one sleek-looking package.
