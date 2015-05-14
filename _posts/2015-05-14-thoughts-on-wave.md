@@ -14,5 +14,10 @@ _"What do you think about Wave?"_
 
 In a nutshell, it's **awesome** :grin:
 
-* It's come a very long way since last November. 
-* The correct wording is actually "Salesforce Analytics Cloud, powered by Wave" – My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The <a href="http://silverlinecrm.com/legomarcs-first-dreamforce/" target="_blank">giant inflatable surfboard</a> made it all worth it though!
+> The training was a 3-day "Brown Belt" course, which is the closest equivalent Salesforce currently has to an implementation expert certification... There's some more sessions going on right now, so ask your Account Executive or Partner Manager if you're interested!
+
+### It's come a very long way since last November. 
+Back in November, there were a lot of moments where you had to dig into code in order to import datasets, transform the data, or fully configure a dashboard. While you still have the option to use code to do all that, I'm happy to report that that's no longer the case!
+
+### The correct wording is actually "Salesforce Analytics Cloud, powered by Wave"
+My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
