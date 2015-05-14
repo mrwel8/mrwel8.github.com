@@ -29,6 +29,8 @@ As of the Summer '15 release, you can now:
 ### It's now very much Salesforce-centric
 When Analytics Cloud was first being marketed, Salesforce emphasized that any data, structured or unstructured, could be imported. 
 
+<img src="https://help.salesforce.com/resource/HTHelpDocImages_194_20_en_US_8/bi_dashboard_example.png" alt="Analytics Cloud Dashboard"/>
+
 ### The technology has been around for a while
 
 ### Salesforce has a lot of ideas in the roadmap
@@ -37,6 +39,7 @@ One giant advantage of being a <a href="https://appexchange.salesforce.com/listi
 ### It's more popular than you might think
 
 ### It's expensive, but likely worth it
+Sure the numbers look pretty big on the Salesforce website, but think about what you're getting. Besides, there are some discounts going around right now that I can help you take advantage of :wink:
 
 ### It's actually "Salesforce Analytics Cloud, powered by Wave"
 My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
