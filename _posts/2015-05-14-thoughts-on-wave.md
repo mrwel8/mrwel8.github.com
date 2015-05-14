@@ -32,7 +32,7 @@ When Analytics Cloud was first being marketed, Salesforce emphasized that any da
 <img src="https://help.salesforce.com/resource/HTHelpDocImages_194_20_en_US_8/bi_dashboard_example.png" alt="Analytics Cloud Dashboard"/>
 
 ### The technology has been around for a while
-
+Although the Salesforce page on this topic looks pretty impressive, the technology that powers Wave is actually not as novel as you might think. Key-value store databases have been around since the 70s, SAQL is essentially a customization of Apache Pig, and EdgeSpring (the company bought by Salesforce in 2013 for an undisclosed sum) had been developing the Edgemart and visualization features since at least 2010. The difference of course has been combining them all together into one sleek-looking package.
 
 ### Salesforce has a lot of ideas in the roadmap
 One giant advantage of being a <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009xUI8EAM" target="_blank">Gold Partner</a> is that product managers sometimes give you glimpses into what is in the pipeline. Without going against any NDA or #safeharbor, all I can say is that Salesforce is putting a ton of effort into Analytics Cloud, so much so that their release timetable is actually doubled compared to the standard Winter / Spring / Summer schedule. The product team seems well aware of AC's shortcomings, and is already thinking through some really neat features for the near- and long-term future.
