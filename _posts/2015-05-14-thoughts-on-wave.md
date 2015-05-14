@@ -33,13 +33,17 @@ When Analytics Cloud was first being marketed, Salesforce emphasized that any da
 
 ### The technology has been around for a while
 
+
 ### Salesforce has a lot of ideas in the roadmap
-One giant advantage of being a <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009xUI8EAM" target="_blank">Gold Partner</a> is that product managers sometimes give you glimpses into what is in the pipeline. Without going against any NDA or #safeharbor, all I can say is that Salesforce is putting a ton of effort into Analytics Cloud, so much so that their release timetable is actually doubled compared to the standard Winter/Spring/Summer schedule. The product team seems well aware of AC's shortcomings, and is already thinking through some really neat features for the near- and long-term future.
+One giant advantage of being a <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009xUI8EAM" target="_blank">Gold Partner</a> is that product managers sometimes give you glimpses into what is in the pipeline. Without going against any NDA or #safeharbor, all I can say is that Salesforce is putting a ton of effort into Analytics Cloud, so much so that their release timetable is actually doubled compared to the standard Winter / Spring / Summer schedule. The product team seems well aware of AC's shortcomings, and is already thinking through some really neat features for the near- and long-term future.
 
 ### It's more popular than you might think
+Trust me when I say that some **very** big EBUs (Enterprise Business Units) are already using Analytics Cloud. Actually, you don't need to trust me since Salesforce is now <a href="http://www.salesforce.com/analytics-cloud/resources/" target="_blank">publicizing those</a>: Coca Cola, GE Capital, Blue Cross Blue Shield, EMC, Akamai,... Sure, they probably have some other analytics platforms running as well, but who knows how long that will last!
 
 ### It's expensive, but likely worth it
-Sure, the numbers look pretty big on the <a href="http://www.salesforce.com/analytics-cloud/pricing/" target="_blank">Salesforce website</a>, but think about what you're getting – A cloud-based analytics platform that is instantly mobile-enabled and connected to your Salesforce data, without any extra infrastructure costs. Besides, there are some discounts going around **right now** that I can help you <script type="text/javascript" language="javascript">
+Sure, the numbers look pretty big on the <a href="http://www.salesforce.com/analytics-cloud/pricing/" target="_blank">Salesforce website</a>, but think about what you're getting – A cloud-based analytics platform that is instantly mobile-enabled and connected to your Salesforce data, without any extra infrastructure costs. When you look at competitors, they are either much more technical to implement (Informatica, Tableau), or they're built for only IT to use (SAP BO, Oracle BI).
+
+> Besides, there are some discounts going around **right now** that I can help you <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature by Andrew Moulden, Site Engineering Ltd
