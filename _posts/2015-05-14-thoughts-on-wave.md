@@ -62,7 +62,7 @@ Sure, the numbers look pretty big on the <a href="http://www.salesforce.com/anal
 document.write("<a href='mailto:"+link+"'>take advantage of</a>")
 }
 //-->
-</script><noscript>take advantage of</noscript> :wink:
+</script><noscript>take advantage of</noscript>. :wink:
 
 ### It's actually "Salesforce Analytics Cloud, powered by Wave"
 My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
