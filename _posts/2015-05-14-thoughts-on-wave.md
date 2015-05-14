@@ -27,7 +27,7 @@ As of the Summer '15 release, you can now:
 * <a href="http://releasenotes.docs.salesforce.com/en-us/summer15/release-notes/rn_bi_embedded_dashboard.htm#rn_bi_embedded_dashboard" target="_blank">Add AC dashboards to Salesforce detail pages</a>
 
 ### It's now very much Salesforce-centric
-
+When Analytics Cloud was first being marketed, Salesforce emphasized that any data, structured or unstructured, could be imported. 
 
 ### The technology has been around for a while
 
