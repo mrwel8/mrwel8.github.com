@@ -30,6 +30,7 @@ Back in November, there were a lot of moments where you had to dig into code in 
 One giant advantage of being a <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N30000009xUI8EAM" target="_blank">Gold Partner</a> is that product managers sometimes give you glimpses into what is in the pipeline. Without going against any NDA or #safeharbor, all I can say is that Salesforce is putting a ton of effort into Analytics Cloud, so much so that their release timetable is actually doubled compared to the standard Winter/Spring/Summer schedule. The product team seems well aware of AC's shortcomings, and is already thinking through some really neat features for the near- and long-term future.
 
 
+
 ### It's more popular than you might think
 
 
