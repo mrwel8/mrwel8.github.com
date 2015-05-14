@@ -39,7 +39,30 @@ One giant advantage of being a <a href="https://appexchange.salesforce.com/listi
 ### It's more popular than you might think
 
 ### It's expensive, but likely worth it
-Sure the numbers look pretty big on the Salesforce website, but think about what you're getting. Besides, there are some discounts going around right now that I can help you take advantage of :wink:
+Sure, the numbers look pretty big on the <a href="http://www.salesforce.com/analytics-cloud/pricing/" target="_blank">Salesforce website</a>, but think about what you're getting – A cloud-based analytics platform that is instantly mobile-enabled and connected to your Salesforce data, without any extra infrastructure costs. Besides, there are some discounts going around **right now** that I can help you <script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature by Andrew Moulden, Site Engineering Ltd
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "wU8dDF9@c8f892.592"
+  key = "nWR6kIrsAPHVDSgji7FZGLMaKcJhb1mq4wdylT0Qufo5CpYO2zN3Et8BeXUx9v"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {     
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>take advantage of</a>")
+}
+//-->
+</script><noscript>take advantage of</noscript> :wink:
 
 ### It's actually "Salesforce Analytics Cloud, powered by Wave"
 My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
