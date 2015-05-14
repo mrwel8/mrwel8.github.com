@@ -19,7 +19,10 @@ In a nutshell, it's **awesome** :grin:
 ### It's come a very long way since last November
 Back in November, there were a lot of moments where you had to dig into code in order to import datasets, transform the data, or fully configure a dashboard. While you still have the option to use code to do all that, I'm happy to report that that's no longer the case!
 
+As of the Summer '15 release, 
+
 ### It's now very much Salesforce-centric
+
 
 ### The technology has been around for a while
 
