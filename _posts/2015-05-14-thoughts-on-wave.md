@@ -19,7 +19,12 @@ In a nutshell, it's **awesome** :grin:
 ### It's come a very long way since last November
 Back in November, there were a lot of moments where you had to dig into code in order to import datasets, transform the data, or fully configure a dashboard. While you still have the option to use code to do all that, I'm happy to report that that's no longer the case!
 
-As of the Summer '15 release, 
+As of the Summer '15 release, you can now:
+
+* <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=bi_dataset_builder.htm&language=en_US" target="_blank">Build datasets from Salesforce data through a UI</a>
+* <a href="http://releasenotes.docs.salesforce.com/en-us/summer15/release-notes/rn_bi_csv_preview.htm" target="_blank">Edit dataset metadata without editing JSON code</a>
+* <a href="http://releasenotes.docs.salesforce.com/en-us/summer15/release-notes/rn_bi_wave_public_api.htm#rn_bi_wave_public_api" target="_blank">Access datasets through a REST API</a>
+* <a href="http://releasenotes.docs.salesforce.com/en-us/summer15/release-notes/rn_bi_embedded_dashboard.htm#rn_bi_embedded_dashboard" target="_blank">Add AC dashboards to Salesforce detail pages</a>
 
 ### It's now very much Salesforce-centric
 
