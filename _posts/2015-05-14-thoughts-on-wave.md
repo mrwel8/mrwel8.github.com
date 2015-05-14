@@ -71,3 +71,5 @@ document.write("<a href='mailto:"+link+"'>take advantage of</a>")
 ### It's actually "Salesforce Analytics Cloud, powered by Wave"
 My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
 
+<img src="http://dreamforcenews.salesforce.com/sites/dfnews.newshq.businesswire.com/files/image/image/Marc_Keynote_003.JPG" alt="Benioff Dreamforce 14"/>
+
