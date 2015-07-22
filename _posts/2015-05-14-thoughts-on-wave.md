@@ -29,7 +29,7 @@ As of the <a href="/summer-15/">Summer '15</a> release, you can now:
 ### It's now very much Salesforce-centric
 When Analytics Cloud was first being marketed, Salesforce emphasized that any data, structured or unstructured, could be imported. Since then, they've refocused their pitch on using Salesforce data as the key component, with other data sources as "decoration", or <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=bi_integrate_augment_transformation.htm&language=en_US" target="_blank">augmenting</a> the Salesforce pieces. 
 
-<img src="https://help.salesforce.com/resource/HTHelpDocImages_194_20_en_US_8/bi_dashboard_example.png" alt="Analytics Cloud Dashboard"/>
+<img src="https://help.salesforce.com/resource/HTHelpDocImages_196_14_en_US_7/bi_dashboard_example.png" alt="Analytics Cloud Dashboard"/>
 
 ### It's not going to replace Salesforce Dashboards
 With all of these fancy-looking pie charts, you might think that Analytics Cloud is going to replace those Reports & Dashboards on your other Salesforce clouds – Gladly / Sadly, that is definitely not the case. Think of AC as the **strategic** tool to report across business processes over time, whereas Salesforce Dashboards are for one-time analyses of operational data (for tracking & measuring things vs. basing long-term strategy on).
@@ -74,5 +74,5 @@ document.write("<a href='mailto:"+link+"'>take advantage of</a>")
 ### It's actually "Salesforce Analytics Cloud, powered by Wave"
 My guess is Benioff got a little too excited by the name at Dreamforce '14, and now everyone thinks it's "Salesforce Wave"... The giant inflatable surfboard made it all worth it though!
 
-<img src="http://dreamforcenews.salesforce.com/sites/dfnews.newshq.businesswire.com/files/image/image/Marc_Keynote_003.JPG" alt="Benioff Dreamforce 14"/>
+<img src="https://dionhinchcliffe.files.wordpress.com/2014/10/img_0949.jpg" alt="Benioff Dreamforce 14"/>
 
