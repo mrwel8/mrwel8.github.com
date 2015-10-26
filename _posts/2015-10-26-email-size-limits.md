@@ -17,11 +17,12 @@ Having gone back and forth with Salesforce Technical Support and experienced fir
 
 ### Inbound Email
 > Includes on-demand Email-to-Case and Apex email services
-> "Standard" Email-to-Case does not have Salesforce limits since emails remain on the email server
 
 - Approx. **18 MB** for all attachments
   * 25 MB for the entire email, including headers and encoding
 - **No** individual attachment size limit
+
+> "Standard" Email-to-Case does not have Salesforce limits since emails remain on the email server
 
 ### Outbound Email
 > Includes email templates and Apex Messaging methods
