@@ -16,10 +16,10 @@ Having gone back and forth with Salesforce Technical Support a few times on the 
 ### Email Services
 > Includes Email-to-Case, standard and on-demand, or Apex Services
 
-- Approx. 18 MB for all attachments (25 MB for the entire email, including headers and encoding)
-- No individual attachment size limit
+- Approx. **18 MB** for all attachments (25 MB for the entire email, including headers and encoding)
+- **No** individual attachment size limit
 
 ### Outbound Email
-- 25 MB for all attachments
-- 5 MB per attachment (Document file limit)
+- **25 MB** for all attachments
+- **5 MB** per attachment (Document file limit)
 
