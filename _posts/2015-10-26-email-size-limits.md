@@ -11,7 +11,8 @@ title: Deciphering Email Size Limits
 
 
 
-Having gone back and forth with Salesforce Technical Support a few times on the issue of email & attachment sizes and experienced it first-hand, I wanted to provide some clarity on the 5, 10, and 25 MB numbers floating around the help docs. 
+
+Having gone back and forth with Salesforce Technical Support and experienced first-hand the question of email & attachment sizes, I wanted to provide some clarity on the 5, 10, and 25 MB numbers floating around the help docs. 
 
 ### Inbound Email
 > Includes Email-to-Case, standard and on-demand, and Apex email services
@@ -21,6 +22,8 @@ Having gone back and forth with Salesforce Technical Support a few times on the 
 - **No** individual attachment size limit
 
 ### Outbound Email
+> Includes email templates and Apex Messaging methods
+
 - **10 MB** for all attachments
 - **No** individual attachment size limit
   * 5 MB when attaching from a Document
