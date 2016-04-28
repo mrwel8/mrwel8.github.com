@@ -30,25 +30,25 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Data Categories        | Yes           | DataCategoryGroup  | Visibility Settings not supported
 | Delegated Administration| No
 | Dependent picklist rules| Yes          | Picklist           |
-| Desktop Administration | No
+| **Desktop Administration** | No
 | Divisions              | Yes           | Division           | SOAP API
-| Email Administration   | No
+| **Email Administration**  | No
 | Email Services         | Yes           | EmailServicesFunction | SOAP API
 | Email-to-Case          | No
 | Feed Item Layouts      | Yes           | Layout
 | Fiscal Year            | Yes           | CompanySettings
 | Forecasting Settings   | Yes           | ForecastingSettings
 | Group Layouts          | Yes           | Layout
-| Holidays               |TRUE|BusinessHoursSettings|
-| Home Page Standard Components|FALSE||
-| Ideas Comment Validation Rules |TRUE|ValidationRule|
-| Ideas Communities      |TRUE|Community|
-| Ideas Settings         |TRUE|IdeasSettings|
-| Label/Tab Renames      |TRUE|CustomObjectTranslation|
-| Lead Settings          |FALSE||
-| List Views on Standard Objects|TRUE|ListView|
-| Mail Merge Templates   |TRUE|MailmergeTemplate|SOAP API
-| Mobile Administration  |FALSE||
+| Holidays               | Yes           | BusinessHoursSettings
+| Home Page Standard Components| No
+| Ideas Comment Validation Rules| Yes    | ValidationRule
+| Ideas Communities      | Yes           | Community
+| Ideas Settings         | Yes           | IdeasSettings
+| Label/Tab Renames      | Yes           | CustomObjectTranslation
+| Lead Settings          | No
+| List Views on Standard Objects| Yes    | ListView
+| Mail Merge Templates   | Yes           | MailmergeTemplate | SOAP API
+| **Mobile Administration** | No
 | Opportunity Big Deal Alerts|FALSE||
 | Opportunity Competitors|TRUE|OpportunityCompetitor|SOAP API
 | Opportunity Product Multi-Line Layouts|TRUE|Layout|
