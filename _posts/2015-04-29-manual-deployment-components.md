@@ -13,14 +13,14 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 
 > If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
 
-| Feature                | Metadata API? | API Object Name    | Notes |
-| ---------------------- | ------------- | ------------------ | ----- |
-| Activity Settings      | Yes           | ActivitiesSettings 
+| Feature                | Metadata API? | SOAP API? | API Object Name    | Notes |
+| ---------------------- | ------------- | --------- | ------------------ | ----- |
+| Activity Settings      | Yes           |           | ActivitiesSettings 
 | Approval Process order | No
-| Business Hours         | Yes           | BusinessHoursSettings
-| Button Overrides       | Yes           | ActionOverride     | Activity Buttons Not Supported
+| Business Hours         | Yes           |           | BusinessHoursSettings
+| Button Overrides       | Yes           |           | ActionOverride     | Activity Buttons Not Supported
 | Campaign Influences    | No
-| Chatter Groups         | Yes           | CollaborationGroup | SOAP API
+| Chatter Groups         | No            | Yes       | CollaborationGroup
 | Chatter Settings, Chat Settings, Email Settings | No
 | Connected Apps         | Yes           | ConnectedApp
 | Console Layouts        | No
