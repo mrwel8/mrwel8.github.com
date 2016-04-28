@@ -27,7 +27,7 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts) | No | Yes | AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner
 | Contracts Settings     | Yes           |           | ContractSettings
 | Currency Exchange Rates| No            | Yes       | DatedConversionRate
-| Data Categories        | Yes           |           | DataCategoryGroup  | Visibility Settings not supported
+| Data Categories        | _Yes_         |           | _DataCategoryGroup_ | _Visibility Settings not supported_
 | Delegated Administration| No
 | Dependent picklist rules| Yes          |           | Picklist
 | **Desktop Administration** | No
@@ -58,7 +58,7 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Organization-Wide Email Addresses| No  | Yes       | OrgWideEmailAddress
 | Password Policies      | Yes           |           | SecuritySettings
 | Predefined Case Teams  | No            | Yes       | CaseTeamTemplate
-| Processes (Lead, Oppty, Cases, Solution)| Yes | BusinessProcess
+| Processes (Lead, Oppty, Cases, Solution)| Yes |    | BusinessProcess
 | Product Schedule Setup | Yes           |           | ProductSettings
 | Product Settings       | Yes           |           | ProductSettings
 | Profile Standard Object Settings & Field-Level Security| Yes | | Profile
