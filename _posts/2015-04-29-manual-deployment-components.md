@@ -24,7 +24,7 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Chatter Settings, Chat Settings, Email Settings|FALSE||
 | Connected Apps|TRUE|ConnectedApp|
 | Console Layouts|FALSE||
-| Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts)|TRUE|AccountContactRole, CaseContactRole, | | | ContractContactRole, OpportunityContactRole, Partner|SOAP API
+| Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts)|TRUE|AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner|SOAP API
 | Contracts Settings|TRUE|ContractSettings|
 | Currency Exchange Rates|TRUE|DatedConversionRate|SOAP API
 | Data Categories|TRUE|DataCategoryGroup|Visibility Settings not supported
