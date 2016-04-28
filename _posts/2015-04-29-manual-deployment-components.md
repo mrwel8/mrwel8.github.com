@@ -47,47 +47,47 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Label/Tab Renames      | Yes           | CustomObjectTranslation
 | Lead Settings          | No
 | List Views on Standard Objects| Yes    | ListView
-| Mail Merge Templates   | Yes           | MailmergeTemplate | SOAP API
+| Mail Merge Templates   | Yes           | MailmergeTemplate  | SOAP API
 | **Mobile Administration** | No
-| Opportunity Big Deal Alerts|FALSE||
-| Opportunity Competitors|TRUE|OpportunityCompetitor|SOAP API
-| Opportunity Product Multi-Line Layouts|TRUE|Layout|
-| Opportunity Settings   |TRUE|OpportunitySettings|
-| Opportunity Update Reminders|FALSE||
-| Organization-Wide Defaults |TRUE|SharingModel|
-| Organization-Wide Email Addresses|TRUE|OrgWideEmailAddress|SOAP API
-| Password Policies      |TRUE|SecuritySettings|
-| Predefined Case Teams  |TRUE|CaseTeamTemplate|SOAP API
-| Processes (Lead, Oppty, Cases, Solution)|TRUE|BusinessProcess|
-| Product Schedule Setup |TRUE|ProductSettings|
-| Product Settings       |TRUE|ProductSettings|
-| Profile Standard Object Settings & Field-Level Security|TRUE|Profile|
-| Public and Resource Calendars|FALSE||
-| Public Groups          |TRUE|Group|
-| Publisher Layouts      |TRUE|Layout|
-| Queues                 |TRUE|Queue|
-| Quote Templates        |FALSE||
-| Role Hierarchies       |TRUE|Role|
-| Salesforce to Salesforce|FALSE||
-| Search Layouts         |TRUE|SearchLayouts|
-| Search Settings        |FALSE||
-| Self-Service Public Solutions|FALSE||
-| Self-Service Web-to-Case|FALSE||
-| Session Settings       |TRUE|SecuritySettings|
-| Sharing Rules          |TRUE|SharingRules|
-| _Site.com Content_     | _Has own process_ ||
-| Social Account/Contact Settings|FALSE||
-| Solution Categories    |TRUE|CategoryNode|SOAP API
-| Solution Settings      |FALSE||
-| Standard auto-number & system fields|FALSE||
-| Standard Field History |TRUE|CustomField|
-| Standard Picklists     |TRUE|Picklist|Except Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status <br/> For Source (Account, Lead, Contact, Oppty, Camp Mem), use Account.AccountSource <br/> For Industry (Account, Lead), use Account.Industry <br/> For Rating (Account, Lead), use Account.Rating <br/> For Salutation (Lead, Contact, Camp Mem), use CampaignMember.Salutation|
-| Support Settings       |TRUE|CaseSettings|
-| Tag Settings           |FALSE||
-| Teams (Account, Oppty, Case)|TRUE|AccountTeamMember, OpportunityTeamMember, CaseTeamMember|SOAP API
-| Territory Assignment Rules|TRUE|Territory2Rule|
-| User Interface Settings|TRUE|ActivitiesSettings, NameSettings|Not all supported
-| Web-to-Lead            |FALSE||
+| Opportunity Big Deal Alerts| No
+| Opportunity Competitors| Yes           | OpportunityCompetitor | SOAP API
+| Opportunity Product Multi-Line Layouts| Yes | Layout
+| Opportunity Settings   | Yes           | OpportunitySettings
+| Opportunity Update Reminders| No
+| Organization-Wide Defaults| Yes        | SharingModel
+| Organization-Wide Email Addresses| Yes | OrgWideEmailAddress| SOAP API
+| Password Policies      | Yes           | SecuritySettings
+| Predefined Case Teams  | Yes           | CaseTeamTemplate   | SOAP API
+| Processes (Lead, Oppty, Cases, Solution)| Yes | BusinessProcess
+| Product Schedule Setup | Yes           | ProductSettings
+| Product Settings       | Yes           | ProductSettings
+| Profile Standard Object Settings & Field-Level Security| Yes | Profile
+| Public and Resource Calendars| No
+| Public Groups          | Yes           | Group
+| Publisher Layouts      | Yes           | Layout
+| Queues                 | Yes           | Queue
+| Quote Templates        | No
+| Role Hierarchies       | Yes           | Role
+| Salesforce to Salesforce| No
+| Search Layouts         | Yes           | SearchLayouts
+| Search Settings        | No
+| Self-Service Public Solutions| No
+| Self-Service Web-to-Case| No
+| Session Settings       | Yes           | SecuritySettings
+| Sharing Rules          | Yes           | SharingRules
+| _Site.com Content_     | _Has own process_
+| Social Account/Contact Settings| No
+| Solution Categories    | Yes           | CategoryNode       | SOAP API
+| Solution Settings      | No
+| Standard auto-number & system fields| No
+| Standard Field History | Yes           | CustomField
+| Standard Picklists     | Yes           | Picklist           | Except Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status <br/> For Source (Account, Lead, Contact, Oppty, Camp Mem), use Account.AccountSource <br/> For Industry (Account, Lead), use Account.Industry <br/> For Rating (Account, Lead), use Account.Rating <br/> For Salutation (Lead, Contact, Camp Mem), use CampaignMember.Salutation
+| Support Settings       | Yes           | CaseSettings
+| Tag Settings           | No
+| Teams (Account, Oppty, Case)| Yes      | AccountTeamMember, OpportunityTeamMember, CaseTeamMember | SOAP API
+| Territory Assignment Rules| Yes        | Territory2Rule
+| User Interface Settings| Yes           | ActivitiesSettings, NameSettings | Not all supported
+| Web-to-Lead            | No
 
 
 ### Administer Section
