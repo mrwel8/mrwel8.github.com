@@ -90,7 +90,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | User Interface Settings| Yes           |           | ActivitiesSettings, NameSettings | Not all supported
 | Web-to-Lead            | No
 
-> † Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status are not supported. <br/> For Lead.LeadSource & Contact.LeadSource & Opportunity.LeadSource & CampaignMember.LeadSource ⇒ Account.AccountSource <br/> For Lead.Industry ⇒ Account.Industry <br/> For Lead.Rating ⇒ Account.Rating <br/> For Lead.Salutation & Contact.Salutation ⇒ CampaignMember.Salutation
+> † Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status are not supported. <br/> For CampaignMember.LeadSource & Contact.LeadSource & Lead.LeadSource & Opportunity.LeadSource ⇒ Account.AccountSource <br/> For Lead.Industry ⇒ Account.Industry <br/> For Lead.Rating ⇒ Account.Rating <br/> For Contact.Salutation & Lead.Salutation ⇒ CampaignMember.Salutation
 
 ### Other Items to Verify
 * Visual Workflow & Process Builder flows need to be activated
