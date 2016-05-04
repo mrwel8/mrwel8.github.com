@@ -167,7 +167,7 @@ table {
   table-layout: fixed;
 }
 
-.component-table thead tr th:nth-child(1) {
+.component-table th:nth-child(1) {
   width: 30%;
 }
 
