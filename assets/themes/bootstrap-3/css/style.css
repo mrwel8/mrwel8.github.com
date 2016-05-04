@@ -181,7 +181,8 @@ table {
   text-align: center;
 }
 
-.component-table thead {
+.component-table thead,
+.component-table td:last-child {
   border-bottom: 3px solid darkgray;
 }
 
