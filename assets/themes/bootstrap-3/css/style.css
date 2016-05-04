@@ -179,6 +179,10 @@ table {
   text-align: center;
 }
 
+.component-table thead {
+  border-bottom: 3px solid darkgray;
+}
+
 td, th {
   padding: 5px;
 }
