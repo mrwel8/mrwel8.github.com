@@ -163,21 +163,26 @@ img:not(.emoji) {
 }
 
 table {
-  width:100%; 
-  border-collapse:collapse; 
+  width: 100%;
+  table-layout: fixed;
 }
-td { 
-  padding:7px; border:#4e95f4 1px solid;
+
+td, th {
+  padding: 5px;
 }
-/* provide some minimal visual accomodation for IE8 and below */
-tr {
-  background: #b8d1f3;
+
+th {
+  text-align: center;
 }
-/*  Define the background color for all the ODD background rows  */
+
 tr:nth-child(odd) { 
-  background: #b8d1f3;
+  background: #FFFFFF;
 }
-/*  Define the background color for all the EVEN background rows  */
+
 tr:nth-child(even) {
-  background: #dae5f4;
+  background: #F0F8FF;
+}
+
+tr:first-child() {
+  background: #FFFFFF;
 }
