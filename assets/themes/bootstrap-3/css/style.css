@@ -171,6 +171,16 @@ table {
   width: 30%;
 }
 
+.component-table th:nth-child(2), 
+.component-table th:nth-child(3) {
+  width: 10%;
+}
+
+.component-table td:nth-child(2), 
+.component-table td:nth-child(3) {
+  text-align: center;
+}
+
 .component-table thead {
   border-bottom: 3px solid darkgray;
 }
