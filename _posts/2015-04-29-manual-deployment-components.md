@@ -82,7 +82,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Solution Settings      | No
 | Standard auto-number & system fields| No
 | Standard Field History | Yes           |           | CustomField
-| Standard Picklists     | Yes           |           | Picklist           | With exceptions†
+| Standard Picklists     | Yes           |           | Picklist           | With exceptions<sup>†</sup>
 | Support Settings       | Yes           |           | CaseSettings
 | Tag Settings           | No
 | Teams (Account, Oppty, Case)| No       | Yes       | AccountTeamMember, OpportunityTeamMember, CaseTeamMember
@@ -90,7 +90,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | User Interface Settings| Yes           |           | ActivitiesSettings, NameSettings | Not all supported
 | Web-to-Lead            | No
 
-> † Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status are not supported. <br/> For Source (Account, Lead, Contact, Oppty, Camp Mem), use Account.AccountSource <br/> For Industry (Account, Lead), use Account.Industry <br/> For Rating (Account, Lead), use Account.Rating <br/> For Salutation (Lead, Contact, Camp Mem), use CampaignMember.Salutation
+> † Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status are not supported. <br/> For Lead.LeadSource & Contact.LeadSource & Opportunity.LeadSource & CampaignMember.LeadSource ⇒ Account.AccountSource <br/> For Lead.Industry ⇒ Account.Industry <br/> For Lead.Rating ⇒ Account.Rating <br/> For Lead.Salutation & Contact.Salutation ⇒ CampaignMember.Salutation
 
 ### Other Items to Verify
 * Visual Workflow & Process Builder flows need to be activated
