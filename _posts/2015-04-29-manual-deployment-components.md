@@ -91,9 +91,6 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Web-to-Lead            | No
 
 ### Other Items to Verify
-* Default List Views on Standard Objects
-* Chatter Groups
-* Approval Process Order
-* Visual Workflow & Process Builder flows (need to be activated)
+* Visual Workflow & Process Builder flows need to be activated
 * Custom Buttons that use the <a href="http://raydehler.com/cloud/clod/salesforce-url-hacking-to-prepopulate-fields-on-a-standard-page-layout.html" target="_blank">well-document URL hacking</a> with field IDs or Object prefixes
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
