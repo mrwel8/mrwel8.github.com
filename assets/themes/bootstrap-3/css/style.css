@@ -171,11 +171,13 @@ table {
   width: 30%;
 }
 
-.component-table thead tr th:nth-child(2), th:nth-child(3) {
+.component-table thead tr th:nth-child(2), 
+.component-table thead tr th:nth-child(3) {
   width: 10%;
 }
 
-.component-table tbody tr td:nth-child(2), td:nth-child(3) {
+.component-table tbody tr td:nth-child(2), 
+.component-table tbody tr td:nth-child(3) {
   text-align: center;
 }
 
