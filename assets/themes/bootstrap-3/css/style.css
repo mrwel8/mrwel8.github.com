@@ -165,6 +165,7 @@ img:not(.emoji) {
 table {
   width: 100%;
   table-layout: fixed;
+  margin: 0 0 23px;
 }
 
 .component-table th:nth-child(1) {
