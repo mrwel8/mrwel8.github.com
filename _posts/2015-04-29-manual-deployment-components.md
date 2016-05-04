@@ -9,9 +9,9 @@ title: Manual Deployment Components
 
 In keeping with the tradition of (hopefully) useful, but lengthy, lists, I've started compiling all the components that can't be migrated through Change Sets. 
 
-Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">a list of all the components</a> that _can_ go through Change Sets, but the opposite is more helpful for planning deployments and knowing what can be done manually ahead of time. 
+Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets_about_components.htm" target="_blank">a list of all the components</a> that _can_ go through Change Sets, but the opposite is more helpful for planning deployments and knowing what can be done manually ahead of time. If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
 
-> If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
+> **Bold** indicates entire Setup menu folders
 
 {: .component-table}
 | Feature                | Metadata API? | SOAP API? | API Object Name    | Notes |
@@ -28,7 +28,7 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 | Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts) | No | Yes | AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner
 | Contracts Settings     | Yes           |           | ContractSettings
 | Currency Exchange Rates| No            | Yes       | DatedConversionRate
-| Data Categories        | _Yes_         |           | _DataCategoryGroup_ | _Visibility Settings not supported_
+| Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank"> Not Recommended</a>_ | | _DataCategoryGroup_ | _Visibility Settings not supported_
 | Delegated Administration| No
 | Dependent picklist rules| Yes          |           | Picklist
 | **Desktop Administration** | No
