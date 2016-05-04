@@ -13,7 +13,7 @@ Salesforce actually has <a href="https://www.salesforce.com/us/developer/docs/ap
 
 > If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
 
-{: .component-table .text}
+{: .component-table}
 | Feature                | Metadata API? | SOAP API? | API Object Name    | Notes |
 | ---------------------- | ------------- | --------- | ------------------ | ----- |
 | Activity Settings      | Yes           |           | ActivitiesSettings 
