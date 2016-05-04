@@ -182,7 +182,7 @@ table {
 }
 
 .component-table thead,
-.component-table td:last-child {
+.component-table tr:last-child {
   border-bottom: 3px solid darkgray;
 }
 
