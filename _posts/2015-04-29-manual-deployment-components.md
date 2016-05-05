@@ -13,6 +13,14 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 
 > **Bold** indicates entire Setup menu folders
 
+<input type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
+
+### Administration
+{: .component-table}
+| Feature                | Deployable?  | API Object Name    | Notes |
+| ---------------------- | ------------ | ------------------ | ----- |
+
+
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
@@ -24,11 +32,10 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Chatter Groups         | SOAP API     | CollaborationGroup
 | Chatter Settings, Chat Settings, Email Settings | **No**
 | Connected Apps         | Metadata API | ConnectedApp
-| Console Layouts        | **No**
 | Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts) | SOAP API | AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner
 | Contracts Settings     | Metadata API | ContractSettings
 | Currency Exchange Rates| SOAP API     | DatedConversionRate
-| Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank"> Not Recommended</a>_ | _DataCategoryGroup_ | _Visibility Settings not supported_
+| Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank"> Not Recommended</a>_ | DataCategoryGroup | Visibility Settings not supported
 | Delegated Administration| **No**
 | Dependent picklist rules| Metadata API | Picklist
 | **Desktop Administration** | **No**
@@ -96,3 +103,5 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 * Visual Workflow & Process Builder flows need to be activated
 * Custom Buttons that use the <a href="http://raydehler.com/cloud/clod/salesforce-url-hacking-to-prepopulate-fields-on-a-standard-page-layout.html" target="_blank">well-document URL hacking</a> with field IDs or Object prefixes
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
+* <a href="https://login.salesforce.com/ui/setup/Setup?setupid=PersonalSetup" target="_blank">My Settings</a>
+* <a href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
