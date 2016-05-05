@@ -19,6 +19,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
 | Business Hours         | Metadata API | BusinessHoursSettings
+<br>
 
 
 ### Build
