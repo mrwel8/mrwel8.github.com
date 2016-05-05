@@ -14,81 +14,81 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 > **Bold** indicates entire Setup menu folders
 
 {: .component-table}
-| Feature                | Metadata API? | SOAP API? | API Object Name    | Notes |
-| ---------------------- | ------------- | --------- | ------------------ | ----- |
-| Activity Settings      | Yes           |           | ActivitiesSettings 
-| Approval Process order | No
-| Business Hours         | Yes           |           | BusinessHoursSettings
-| Button Overrides       | Yes           |           | ActionOverride     | Activity Buttons Not Supported
-| Campaign Influences    | No
-| Chatter Groups         | No            | Yes       | CollaborationGroup
-| Chatter Settings, Chat Settings, Email Settings | No
-| Connected Apps         | Yes           |           | ConnectedApp
-| Console Layouts        | No
-| Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts) | No | Yes | AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner
-| Contracts Settings     | Yes           |           | ContractSettings
-| Currency Exchange Rates| No            | Yes       | DatedConversionRate
-| Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank"> Not Recommended</a>_ | | _DataCategoryGroup_ | _Visibility Settings not supported_
-| Delegated Administration| No
-| Dependent picklist rules| Yes          |           | Picklist
-| **Desktop Administration** | No
-| Divisions              | No            | Yes       | Division        
-| **Email Administration**  | No
-| Email Services         | No            | Yes       | EmailServicesFunction
-| Email-to-Case          | No
-| Feed Item Layouts      | Yes           |           | Layout
-| Fiscal Year            | Yes           |           | CompanySettings
-| Forecasting Settings   | Yes           |           | ForecastingSettings
-| Group Layouts          | Yes           |           | Layout
-| Holidays               | Yes           |           | BusinessHoursSettings
-| Home Page Standard Components| No
-| Ideas Comment Validation Rules| Yes    |           | ValidationRule
-| Ideas Communities      | Yes           |           | Community
-| Ideas Settings         | Yes           |           | IdeasSettings
-| Label/Tab Renames      | Yes           |           | CustomObjectTranslation
-| Lead Settings          | No
-| List Views on Standard Objects| Yes    |           | ListView
-| Mail Merge Templates   | No            | Yes       | MailmergeTemplate
-| **Mobile Administration** | No
-| Opportunity Big Deal Alerts| No
-| Opportunity Competitors| No            | Yes       | OpportunityCompetitor
-| Opportunity Product Multi-Line Layouts| Yes |      | Layout
-| Opportunity Settings   | Yes           |           | OpportunitySettings
-| Opportunity Update Reminders| No
-| Organization-Wide Defaults| Yes        |           | SharingModel
-| Organization-Wide Email Addresses| No  | Yes       | OrgWideEmailAddress
-| Password Policies      | Yes           |           | SecuritySettings
-| Predefined Case Teams  | No            | Yes       | CaseTeamTemplate
-| Processes (Lead, Oppty, Cases, Solution)| Yes |    | BusinessProcess
-| Product Schedule Setup | Yes           |           | ProductSettings
-| Product Settings       | Yes           |           | ProductSettings
-| Profile Standard Object Settings & Field-Level Security| Yes | | Profile
-| Public and Resource Calendars| No
-| Public Groups          | Yes           |           | Group
-| Publisher Layouts      | Yes           |           | Layout
-| Queues                 | Yes           |           | Queue
-| Quote Templates        | No
-| Role Hierarchies       | Yes           |           | Role
-| Salesforce to Salesforce| No
-| Search Layouts         | Yes           |           | SearchLayouts
-| Search Settings        | No
-| Self-Service Public Solutions| No
-| Self-Service Web-to-Case| No
-| Session Settings       | Yes           |           | SecuritySettings
-| Sharing Rules          | Yes           |           | SharingRules
+| Feature                | Deployable?  | API Object Name    | Notes |
+| ---------------------- | ------------ | ------------------ | ----- |
+| Activity Settings      | Metadata API | ActivitiesSettings 
+| Approval Process order | **No**
+| Business Hours         | Metadata API | BusinessHoursSettings
+| Button Overrides       | Metadata API | ActionOverride     | Activity Buttons Not Supported
+| Campaign Influences    | **No**
+| Chatter Groups         | SOAP API     | CollaborationGroup
+| Chatter Settings, Chat Settings, Email Settings | **No**
+| Connected Apps         | Metadata API | ConnectedApp
+| Console Layouts        | **No**
+| Contact Roles (Partner, Account, Oppty, Oppty Team, Cases, Case Team, Contracts) | SOAP API | AccountContactRole, CaseContactRole, ContractContactRole, OpportunityContactRole, Partner
+| Contracts Settings     | Metadata API | ContractSettings
+| Currency Exchange Rates| SOAP API     | DatedConversionRate
+| Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank"> Not Recommended</a>_ | _DataCategoryGroup_ | _Visibility Settings not supported_
+| Delegated Administration| **No**
+| Dependent picklist rules| Metadata API | Picklist
+| **Desktop Administration** | **No**
+| Divisions              | SOAP API     | Division        
+| **Email Administration**  | **No**
+| Email Services         | SOAP API     | EmailServicesFunction
+| Email-to-Case          | **No**
+| Feed Item Layouts      | Metadata API | Layout
+| Fiscal Year            | Metadata API | CompanySettings
+| Forecasting Settings   | Metadata API | ForecastingSettings
+| Group Layouts          | Metadata API | Layout
+| Holidays               | Metadata API | BusinessHoursSettings
+| Home Page Standard Components| **No**
+| Ideas Comment Validation Rules| Metadata API | ValidationRule
+| Ideas Communities      | Metadata API | Community
+| Ideas Settings         | Metadata API | IdeasSettings
+| Label/Tab Renames      | Metadata API | CustomObjectTranslation
+| Lead Settings          | **No**
+| List Views on Standard Objects| Metadata API | ListView
+| Mail Merge Templates   | SOAP API     | MailmergeTemplate
+| **Mobile Administration** | **No**
+| Opportunity Big Deal Alerts| **No**
+| Opportunity Competitors| SOAP API     | OpportunityCompetitor
+| Opportunity Product Multi-Line Layouts| Metadata API | Layout
+| Opportunity Settings   | Metadata API | OpportunitySettings
+| Opportunity Update Reminders| **No**
+| Organization-Wide Defaults| Metadata API | SharingModel
+| Organization-Wide Email Addresses| SOAP API | OrgWideEmailAddress
+| Password Policies      | Metadata API | SecuritySettings
+| Predefined Case Teams  | SOAP API     | CaseTeamTemplate
+| Processes (Lead, Oppty, Cases, Solution)| Metadata API | BusinessProcess
+| Product Schedule Setup | Metadata API | ProductSettings
+| Product Settings       | Metadata API | ProductSettings
+| Profile Standard Object Settings & Field-Level Security| Metadata API | Profile
+| Public and Resource Calendars| **No**
+| Public Groups          | Metadata API | Group
+| Publisher Layouts      | Metadata API | Layout
+| Queues                 | Metadata API | Queue
+| Quote Templates        | **No**
+| Role Hierarchies       | Metadata API | Role
+| Salesforce to Salesforce| **No**
+| Search Layouts         | Metadata API | SearchLayouts
+| Search Settings        | **No**
+| Self-Service Public Solutions| **No**
+| Self-Service Web-to-Case| **No**
+| Session Settings       | Metadata API | SecuritySettings
+| Sharing Rules          | Metadata API | SharingRules
 | _Site.com Content_     | _Has own process_
-| Social Account/Contact Settings| No
-| Solution Categories    | No            | Yes       | CategoryNode
-| Solution Settings      | No
-| Standard auto-number & system fields| No
-| Standard Field History | Yes           |           | CustomField
-| Standard Picklists     | Yes           |           | Picklist           | With exceptions<sup>†</sup>
-| Support Settings       | Yes           |           | CaseSettings
-| Tag Settings           | No
-| Teams (Account, Oppty, Case)| No       | Yes       | AccountTeamMember, OpportunityTeamMember, CaseTeamMember
-| Territory Assignment Rules| Yes        |           | Territory2Rule
-| User Interface Settings| Yes           |           | ActivitiesSettings, NameSettings | Not all supported
-| Web-to-Lead            | No
+| Social Account/Contact Settings| **No**
+| Solution Categories    | SOAP API     | CategoryNode
+| Solution Settings      | **No**
+| Standard auto-number & system fields| **No**
+| Standard Field History | Metadata API | CustomField
+| Standard Picklists     | Metadata API | Picklist           | With exceptions<sup>†</sup>
+| Support Settings       | Metadata API | CaseSettings
+| Tag Settings           | **No**
+| Teams (Account, Oppty, Case)| SOAP API| AccountTeamMember, OpportunityTeamMember, CaseTeamMember
+| Territory Assignment Rules| Metadata API | Territory2Rule
+| User Interface Settings| Metadata API | ActivitiesSettings & NameSettings | Partially supported
+| Web-to-Lead            | **No**
 
 > † Lead.CampaignMemberStatus, Opportunity.ForecastCategoryName, and Order.Status are not supported. <br/> For CampaignMember.LeadSource & Contact.LeadSource & Lead.LeadSource & Opportunity.LeadSource ⇒ Account.AccountSource <br/> For Lead.Industry ⇒ Account.Industry <br/> For Lead.Rating ⇒ Account.Rating <br/> For Contact.Salutation & Lead.Salutation ⇒ CampaignMember.Salutation
 
