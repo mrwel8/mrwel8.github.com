@@ -14,14 +14,12 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 > **Bold** indicates entire Setup menu folders <br/>
 > Point links to <input id="prod-toggle" type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
 
-### Administration
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
 | Business Hours         | Metadata API | BusinessHoursSettings
 
 
-### Build
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
