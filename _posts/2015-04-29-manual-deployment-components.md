@@ -11,7 +11,7 @@ In keeping with the tradition of (hopefully) useful, but lengthy, lists, I've st
 
 Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets_about_components.htm" target="_blank">a list of all the components</a> that _can_ go through Change Sets, but the opposite is more helpful for planning deployments and knowing what can be done manually ahead of time. If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
 
-> **Bold** indicates entire Setup menu folders
+> **Bold** indicates entire Setup menu folders <br/>
 > Point links to <input type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
 
 ### Administration
