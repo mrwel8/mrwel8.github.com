@@ -104,22 +104,3 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
 * <a class="dyn-link" href="https://login.salesforce.com/ui/setup/Setup?setupid=PersonalSetup" target="_blank">My Settings</a>
 * <a class="dyn-link" href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
-
-<script>
-	$(function() {
-      $('#prod-toggle').change(function() {
-      	
-        var prefix = 'login';
-        if ($(this).prop('checked')) {
-        	prefix = 'login';
-        } else {
-        	prefix = 'test';
-        }
-        
-        $('.dyn-link').each(function() {
-        	var oldhref = $(this).prop('href');
-            $(this).prop('href', 'https://' + prefix + '.salesforce.com' + oldhref.substring(oldhref.indexOf('/', 9)));
-        });
-      })
-    })
-</script>
