@@ -12,20 +12,20 @@ In keeping with the tradition of (hopefully) useful, but lengthy, lists, I've st
 Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets_about_components.htm" target="_blank">a list of all the components</a> that _can_ go through Change Sets, but the opposite is more helpful for planning deployments and knowing what can be done manually ahead of time. If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, all of which are contained below as well.
 
 > **Bold** indicates entire Setup menu folders <br/>
-> Point links to <input type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
+> Point links to <input id="prod-toggle" type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
 
 ### Administration
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
+| Business Hours         | Metadata API | BusinessHoursSettings
 
-
+### Build
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
 | Activity Settings      | Metadata API | ActivitiesSettings 
 | Approval Process order | **No**
-| Business Hours         | Metadata API | BusinessHoursSettings
 | Button Overrides       | Metadata API | ActionOverride     | Activity Buttons Not Supported
 | Campaign Influences    | **No**
 | Chatter Groups         | SOAP API     | CollaborationGroup
@@ -102,5 +102,24 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 * Visual Workflow & Process Builder flows need to be activated
 * Custom Buttons that use the <a href="http://raydehler.com/cloud/clod/salesforce-url-hacking-to-prepopulate-fields-on-a-standard-page-layout.html" target="_blank">well-document URL hacking</a> with field IDs or Object prefixes
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
-* <a href="https://login.salesforce.com/ui/setup/Setup?setupid=PersonalSetup" target="_blank">My Settings</a>
-* <a href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
+* <a class="dyn-link" href="https://login.salesforce.com/ui/setup/Setup?setupid=PersonalSetup" target="_blank">My Settings</a>
+* <a class="dyn-link" href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
+
+<script>
+	$(function() {
+      $('#prod-toggle').change(function() {
+      	
+        var prefix = 'login';
+        if ($(this).prop('checked')) {
+        	prefix = 'login';
+        } else {
+        	prefix = 'test';
+        }
+        
+        $('.dyn-link').each(function() {
+        	var oldhref = $(this).prop('href');
+            $(this).prop('href', 'https://' + prefix + '.salesforce.com' + oldhref.substring(oldhref.indexOf('/', 9)));
+        });
+      })
+    })
+</script>
