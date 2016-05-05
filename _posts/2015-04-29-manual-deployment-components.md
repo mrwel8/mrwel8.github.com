@@ -20,6 +20,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | ---------------------- | ------------ | ------------------ | ----- |
 | Business Hours         | Metadata API | BusinessHoursSettings
 
+
 ### Build
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
@@ -102,5 +103,5 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 * Visual Workflow & Process Builder flows need to be activated
 * Custom Buttons that use the <a href="http://raydehler.com/cloud/clod/salesforce-url-hacking-to-prepopulate-fields-on-a-standard-page-layout.html" target="_blank">well-document URL hacking</a> with field IDs or Object prefixes
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
-* <a class="dyn-link" href="https://login.salesforce.com/ui/setup/Setup?setupid=PersonalSetup" target="_blank">My Settings</a>
+* My Settings
 * <a class="dyn-link" href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
