@@ -15,7 +15,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 > Point links to <input id="prod-toggle" type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
 
 ### Administration
-
+{: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
 | Business Hours         | Metadata API | BusinessHoursSettings
@@ -24,7 +24,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 ### Build
 {: .component-table}
 | Feature                | Deployable?  | API Object Name    | Notes |
-| ---------------------- | ------------ | ------------------ | ----- |
+| -----------------------| ------------ | ------------------ | ----- |
 | Activity Settings      | Metadata API | ActivitiesSettings 
 | Approval Process order | **No**
 | Button Overrides       | Metadata API | ActionOverride     | Activity Buttons Not Supported
