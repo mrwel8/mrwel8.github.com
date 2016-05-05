@@ -97,5 +97,23 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script>
+      $(function() {
+        $('#prod-toggle').change(function() {
+
+          var prefix = 'login';
+          if ($(this).prop('checked')) {
+              prefix = 'login';
+          } else {
+              prefix = 'test';
+          }
+
+          $('.dyn-link').each(function() {
+              var oldhref = $(this).prop('href');
+              $(this).prop('href', 'https://' + prefix + '.salesforce.com' + oldhref.substring(oldhref.indexOf('/', 9)));
+          });
+        })
+      })
+    </script>
   </body>
 </html>
