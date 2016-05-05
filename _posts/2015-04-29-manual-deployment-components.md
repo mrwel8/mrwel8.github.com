@@ -19,11 +19,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | ---------------------- | ------------ | ------------------ | ----- |
 | <a class="dyn-link" href="https://login.salesforce.com/ui/setup/tab/AppMenuItemReorderPage" target="_blank">App Menu</a> | Metadata API | <a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_appmenu.htm" target="_blank">AppMenu</a>
 | Business Hours         | Metadata API | BusinessHoursSettings
-
-
-{: .component-table}
-| Feature                | Deployable?  | API Object Name    | Notes |
-| ---------------------- | ------------ | ------------------ | ----- |
+| Territory Assignment Rules| Metadata API | Territory2Rule
 | Activity Settings      | Metadata API | ActivitiesSettings 
 | Approval Process order | **No**
 | Button Overrides       | Metadata API | ActionOverride     | Activity Buttons Not Supported
@@ -92,7 +88,6 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Support Settings       | Metadata API | CaseSettings
 | Tag Settings           | **No**
 | Teams (Account, Oppty, Case)| SOAP API| AccountTeamMember, OpportunityTeamMember, CaseTeamMember
-| Territory Assignment Rules| Metadata API | Territory2Rule
 | User Interface Settings| Metadata API | ActivitiesSettings & NameSettings | Partially supported
 | Web-to-Lead            | **No**
 
