@@ -12,7 +12,6 @@ In keeping with the tradition of (hopefully) useful, but lengthy, lists, I've st
 Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=changesets_about_components.htm" target="_blank">a list of all the components</a> that _can_ go through Change Sets, but the opposite is more helpful for planning deployments and knowing what can be done manually ahead of time. If you're using the Metadata API with Ant, then you can use <a href="https://www.salesforce.com/us/developer/docs/api_meta/Content/meta_unsupported_types.htm" target="_blank">the following list</a> of unsupported metadata types, although it seems to be outdated as of the 36.0 release.
 
 > **Bold** indicates entire Setup menu folders <br/>
-> Point links to <input id="prod-toggle" type="checkbox" checked data-toggle="toggle" data-on="Prod" data-off="Sandbox" data-onstyle="success" data-offstyle="primary">
 
 ### Administer
 
@@ -20,7 +19,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Feature                | Deployable?  | API Object Name    | Notes |
 | ---------------------- | ------------ | ------------------ | ----- |
 | Auth. Providers        | Metadata API | AuthProvider
-| <a class="dyn-link" href="https://login.salesforce.com/ui/setup/tab/AppMenuItemReorderPage" target="_blank">App Menu</a> | Metadata API | <a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_appmenu.htm" target="_blank">AppMenu</a>
+| App Menu               | Metadata API | AppMenu
 | Business Hours         | Metadata API | BusinessHoursSettings
 | Company Information    | SOAP API     | Organization
 | Connected Apps         | Metadata API | ConnectedApp
@@ -66,7 +65,7 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Campaign Influences    | **No**
 | Chatter Groups         | SOAP API     | CollaborationGroup
 | Chatter Settings, Chat Settings, Email Settings | **No**
-| Contact Roles (Partner, Accounts & Opportunities, Opportunity Team, Cases, Case Team, Contracts) | SOAP API | Partner Role, AccountContactRole, OpportunityContactRole, CaseContactRole, CaseTeamRole, ContractContactRole
+| Contact Roles (Partner, Accounts & Opportunities, Opportunity Team, Cases, Case Team, Contracts) | SOAP API | PartnerRole, AccountContactRole, OpportunityContactRole, CaseContactRole, CaseTeamRole, ContractContactRole
 | Contracts Settings     | Metadata API | ContractSettings
 | Data Categories        | _<a href="https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_datacategorygroup.htm" target="_blank">Not Recommended</a>_ | DataCategoryGroup | Visibility Settings not supported
 | Dependent picklist rules| Metadata API | Picklist
@@ -98,7 +97,6 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 | Search Settings        | **No**
 | Self-Service Public Solutions| **No**
 | Self-Service Web-to-Case| **No**
-| _Site.com Content_     | _Has own process_
 | Social Account/Contact Settings| **No**
 | Solution Categories    | SOAP API     | CategoryNode
 | Solution Settings      | **No**
@@ -118,4 +116,4 @@ Salesforce actually has <a href="https://help.salesforce.com/apex/HTViewHelpDoc?
 * Custom Buttons that use the <a href="http://raydehler.com/cloud/clod/salesforce-url-hacking-to-prepopulate-fields-on-a-standard-page-layout.html" target="_blank">well-document URL hacking</a> with field IDs or Object prefixes
 * Formulas that reference Documents, Static Resources, Record Types, or IDs
 * My Settings (Personal Groups, Display & Layout, Email, Chatter, Calendar & Reminders)
-* <a class="dyn-link" href="https://login.salesforce.com/changemgmt/deploymentSettings.apexp" target="_blank">Deployment Settings</a>
+* Deployment Settings
