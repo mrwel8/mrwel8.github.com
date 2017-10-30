@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-date: '2017-10-14'
+date: '2017-11-09'
 comments: true
 permalink: df-17
 title: Thinking Lightning Dreamforce Presentation
