@@ -8,6 +8,8 @@ title: Thinking Lightning Dreamforce Presentation
 ---
 I hope you enjoyed the presentation! Here are links to the material covered:
 
+- <a href="https://www.salesforce.com/video/1780213/" target="_blank">Salesforce Video</a>
+- <a href="https://www.youtube.com/watch?v=qduK8PY3CKc" target="_blank">YouTube</a>
 - <a href="https://drive.google.com/file/d/0B21ZdEsNxADxRmZZOURmTHhCUjQ/view?usp=sharing" target="_blank">Presentation</a>
 - <a href="https://github.com/mrwel8/thinking-lightning-examples" target="_blank">Code examples</a>
 - <a href="https://mobro.co/julienouellet" target="_blank">Movember!</a>
@@ -23,5 +25,3 @@ I hope you enjoyed the presentation! Here are links to the material covered:
 	* <a href="https://www.codeschool.com/learn/javascript" target="_blank">CodeSchool</a>
 	* <a href="https://javascript30.com/" target="_blank">JavaScript30</a>
 	* <a href="https://www.pluralsight.com/courses/javascript-in-salesforce-getting-started" target="_blank">Getting Started with JavaScript in Salesforce</a>
-
-
