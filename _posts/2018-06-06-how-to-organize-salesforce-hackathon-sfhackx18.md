@@ -8,13 +8,13 @@ title: How to Organize a Salesforce Hackathon
 ---
 _A recap of SFHackX ‘18_
 
-> This post was first published on the <a href="https://medium.com/@mrwel8/how-to-organize-a-salesforce-hackathon-c7713410e75f" target="_blank">Slalom Technology blog</a>.
+> This post was first published on the <a href="https://medium.com/slalom-technology/how-to-organize-a-salesforce-hackathon-c7713410e75f" target="_blank">Slalom Technology blog</a>.
 
 > The room erupted in laughter as the loading screen for the GetZa app displayed a cat, spinning on top of a pizza, floating in space. That was when I realized how useful the hackathon would actually be to all the participants.
 
 Last Saturday was the second annual hackathon for the Boston Salesforce Developer Group, and as a co-organizer and judge for the event, I had a chance to see first-hand all the inspiring work and learning that the teams put on display. Having experienced a few of these competitions now as both a participant and a contributor, a few highlights really stand out as best practices and helpful tips. I’m already looking forward to the next one and I hope you consider planning your own with the following playbook — You’ll find that it’s well worth the effort!
 
-<img src="/assets/pics/fullcrowd.JPG" alt="All the attendees"/>
+<img src="/assets/pics/sfhackx-fullcrowd.JPG" alt="All the attendees at SFHackX '18"/>
 
 > 9 hours later — We all made it!
 
@@ -25,16 +25,23 @@ After I saw the success that was the first SFHackX, I reached out to my manager 
 
 ### Plan, plan, plan some more
 Once we had finalized a date, it didn’t seem like the planning stage would require much effort. All we needed to determine were a location, some food, and a few hacks for the participants to compete on. In the end though, this ended up being the most time-consuming activity, presumably because it involves dealing with budgets and many small, important details — Some tough questions you’ll have to answer, for instance, are:
-- How many people to we really expect to attend?
-- How can we simply split expenses between sponsors?
+- How many people to we _really_ expect to attend?
+- How can we _simply_ split expenses between sponsors?
 - How good is the WiFi?
 - How detailed do the requirements need to be?
 - What are the judging criteria?
 
 The room we eventually settled on for the hackathon this year was an amphitheater at Harvard that had the luxury of outlets at every seat. The large adjacent lobby area was also perfect for a catering setup and a space to break from the buzz in the room. Although it can be harder to find a sponsor that works for a university (thanks Corey!), one significant advantage of being on campus is that you can target Salesforce newcomers and promote through existing student channels.
 
+<img src="/assets/pics/sfhackx-foodsetup.JPG" alt="Food setup at SFHackX"/>
+
+> Coding really does build an appetite! (via @twtinc)
+
 ### Get the word out
 Even a perfectly planned and executed hackathon will not be successful unless you can get the word out to your target audience. Your sponsors will most likely have some good ideas and existing channels for doing so, but it helps to also have a branded website or a Meetup event to direct users to for sign up. Think of a good hashtag (like #SFHackX) and start using it as early as possible!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We’ve got <a href="https://twitter.com/SalesforceAdmns?ref_src=twsrc%5Etfw">@SalesforceAdmns</a> &amp; <a href="https://twitter.com/SalesforceDevs?ref_src=twsrc%5Etfw">@SalesforceDevs</a> here at <a href="https://twitter.com/hashtag/SFHackX?src=hash&amp;ref_src=twsrc%5Etfw">#SFHackX</a>! <a href="https://t.co/xMvqc2s01I">pic.twitter.com/xMvqc2s01I</a></p>&mdash; Slalom Boston (@SlalomBoston) <a href="https://twitter.com/SlalomBoston/status/1002969806864297984?ref_src=twsrc%5Etfw">June 2, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 One item to remember too is that promotion during the event can attract stragglers as well as catch the eyes of local MVPs or Salesforce influencers online. Make sure your Instagram and video skills are up to date, and encourage participants to share your hashtag — Maybe with a special prize for the person with the most activity?
 
@@ -51,6 +58,10 @@ Ultimately, although you can’t control what participants will take away from t
 Is your goal to get more people to use the Lightning Platform? Focus on simpler challenges that feature clicks over code, and make sure to avoid topics that aren’t fully documented or might be easy to get stuck on. Looking to provide local developers with an entertaining day to share learnings and “level up”? Make sure you are available for helping out teams that have any questions throughout the day.
 
 For this year’s SFHackX, we chose to provide 2 separate tracks for participants to select their hack from. One was the Rookie Trailblazer track that focused almost exclusively on clicks — albeit with novel topics such as Einstein Bot and Prediction Builder — while the Lightning Pro track delved into both types of Einstein APIs. Although some of the prompts required a bit of imagination and hand-holding, we tried to ensure teams weren’t spending too much time on any particularity, and instead were looking at their solution as a whole.
+
+<img src="/assets/pics/sfhackx-hackcards.JPG" alt="Hacks for SFHackX '18"/>
+
+> Hack cards and stickers galore (via Kartik)
 
 So what are you waiting for? Make it your personal goal for the year to organize a hackathon for your colleagues, your local Developer Group, or a local meetup, and share your best practices with the rest of us!
 
