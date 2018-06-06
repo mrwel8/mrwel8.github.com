@@ -10,6 +10,8 @@ _Analytics Cloud is for everyone. Here’s why._
 
 > This post was first published on the <a href="https://www.slalom.com/thinking/surfing-the-wave-in-analytics-cloud" target="_blank">Slalom Thinking blog</a>.
 
+<img src="/assets/pics/blog-analytics-cloud-1200x600.jpg" alt="Screenshot of Analytics Cloud"/>
+
 For the past few years, we’ve been told that data is all around us, and that we’re now living in a world of "big data analytics." And yet, there's a big difference between having data and actually using it to run a business. <a href="http://www-01.ibm.com/software/data/bigdata/what-is-big-data.html" target="_blank">90% of the world's data</a> was created in the past two years, but only 0.5% of it <a href="https://www.emc.com/collateral/analyst-reports/idc-digital-universe-united-states.pdf" target="_blank">has been analyzed</a>. How do we tap into that unexplored data?
 
 Last year Salesforce released <a href="http://www.salesforce.com/analytics-cloud/overview/" target="_blank">Analytics Cloud</a> at Dreamforce, claiming the product to be "the first cloud analytics platform designed for every business user." A number of big businesses have signed on, but many have struggled to identify the value in yet another business intelligence initiative. No matter how powerful or easy to install, those legacy data silos or Excel spreadsheets will always require a whole set of BI analysts to extract and report on.
