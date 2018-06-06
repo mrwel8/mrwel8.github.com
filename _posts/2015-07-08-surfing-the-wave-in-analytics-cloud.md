@@ -39,3 +39,4 @@ When data is created at such a rapid pace, the only way to ensure that business 
 By providing interactive and engaging visualizations, the product enables users from all levels of the organization to collaborate and share their dashboards with the relevant stakeholders. With insight into both the sales and service organizations, sales reps can easily focus on their highest-value accounts while support agents can view product usage and highlight opportunities for growth.
 
 Data analysts will always be needed to spot complex correlations and design predictive models, but ultimately they are not responsible for presenting and executing decisions based on the analysis. With Analytics Cloud, management can customize and visualize personalized reports in real-time, effectively paving the “last mile” to realizing the promise of big data.
+ 
