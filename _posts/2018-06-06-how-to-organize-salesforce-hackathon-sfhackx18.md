@@ -4,6 +4,7 @@ layout: post
 date: '2018-06-06'
 comments: true
 permalink: sfhackx-18-recap
+title: How to Organize a Salesforce Hackathon
 ---
 _## A recap of SFHackX ‘18_
 
