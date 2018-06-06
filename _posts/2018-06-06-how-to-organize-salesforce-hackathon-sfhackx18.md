@@ -14,7 +14,7 @@ _A recap of SFHackX ‘18_
 
 Last Saturday was the second annual hackathon for the Boston Salesforce Developer Group, and as a co-organizer and judge for the event, I had a chance to see first-hand all the inspiring work and learning that the teams put on display. Having experienced a few of these competitions now as both a participant and a contributor, a few highlights really stand out as best practices and helpful tips. I’m already looking forward to the next one and I hope you consider planning your own with the following playbook — You’ll find that it’s well worth the effort!
 
-<img src="/assets/pics/sfhackx-fullcrowd.JPG" alt="All the attendees at SFHackX '18"/>
+<img src="/assets/pics/sfhackx-fullcrowd.jpg" alt="All the attendees at SFHackX '18"/>
 
 > 9 hours later — We all made it!
 
@@ -33,7 +33,7 @@ Once we had finalized a date, it didn’t seem like the planning stage would req
 
 The room we eventually settled on for the hackathon this year was an amphitheater at Harvard that had the luxury of outlets at every seat. The large adjacent lobby area was also perfect for a catering setup and a space to break from the buzz in the room. Although it can be harder to find a sponsor that works for a university (thanks <a href="https://twitter.com/corey_snow" target="_blank">Corey</a>!), one significant advantage of being on campus is that you can target Salesforce newcomers and promote through existing student channels.
 
-<img src="/assets/pics/sfhackx-foodsetup.JPG" alt="Food setup at SFHackX"/>
+<img src="/assets/pics/sfhackx-foodsetup.jpg" alt="Food setup at SFHackX"/>
 
 > Coding really does build an appetite! (via <a href="https://twitter.com/twtinc" target="_blank">@twtinc</a>)
 
@@ -59,7 +59,7 @@ Is your goal to get more people to use the Lightning Platform? Focus on simpler 
 
 For this year’s SFHackX, we chose to provide 2 separate tracks for participants to select their hack from. One was the Rookie Trailblazer track that focused almost exclusively on clicks — albeit with novel topics such as Einstein Bot and Prediction Builder — while the Lightning Pro track delved into both types of Einstein APIs. Although some of the prompts required a bit of imagination and hand-holding, we tried to ensure teams weren’t spending too much time on any particularity, and instead were looking at their solution as a whole.
 
-<img src="/assets/pics/sfhackx-hackcards.JPG" alt="Hacks for SFHackX '18"/>
+<img src="/assets/pics/sfhackx-hackcards.jpg" alt="Hacks for SFHackX '18"/>
 
 > Hack cards and stickers galore (via <a href="https://twitter.com/logontokartik" target="_blank">Kartik</a>)
 
