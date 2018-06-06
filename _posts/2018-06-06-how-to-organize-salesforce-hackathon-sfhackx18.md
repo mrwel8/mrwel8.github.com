@@ -21,7 +21,7 @@ Last Saturday was the second annual hackathon for the Boston Salesforce Develope
 ### Find the right people
 How hard could it be to schedule a place and time for people to meet? The answer, as you may have guessed, is that it’s always more work than you might expect, so you’ll want to find others that are up to the task. Luckily, in Salesforce circles, that’s not all that difficult — Developer Groups, the Success Community, Salesforce Partners, and Twitter feeds are all full of like-minded folks who are always looking to get involved.
 
-After I saw the success that was the first SFHackX, I reached out to my manager to see if Slalom would consider sponsoring this year’s edition. Before long, I was on a Slack channel with Bing and Kartik from the Boston Salesforce Developer Group, listing out all of our todos and next steps to get the hackathon off the ground. Needless to say, it couldn’t have happened with their and Slalom’s support!
+After I saw the success that was the first SFHackX, I reached out to my manager to see if <a href="https://www.slalom.com/work/partners/salesforce" target="_blank">Slalom</a> would consider sponsoring this year’s edition. Before long, I was on a Slack channel with <a href="https://twitter.com/twtinc" target="_blank">Bing</a> and <a href="https://twitter.com/logontokartik" target="_blank">Kartik</a> from the Boston Salesforce Developer Group, listing out all of our todos and next steps to get the hackathon off the ground. Needless to say, it couldn’t have happened with their and Slalom’s support!
 
 ### Plan, plan, plan some more
 Once we had finalized a date, it didn’t seem like the planning stage would require much effort. All we needed to determine were a location, some food, and a few hacks for the participants to compete on. In the end though, this ended up being the most time-consuming activity, presumably because it involves dealing with budgets and many small, important details — Some tough questions you’ll have to answer, for instance, are:
@@ -31,14 +31,14 @@ Once we had finalized a date, it didn’t seem like the planning stage would req
 - How detailed do the requirements need to be?
 - What are the judging criteria?
 
-The room we eventually settled on for the hackathon this year was an amphitheater at Harvard that had the luxury of outlets at every seat. The large adjacent lobby area was also perfect for a catering setup and a space to break from the buzz in the room. Although it can be harder to find a sponsor that works for a university (thanks Corey!), one significant advantage of being on campus is that you can target Salesforce newcomers and promote through existing student channels.
+The room we eventually settled on for the hackathon this year was an amphitheater at Harvard that had the luxury of outlets at every seat. The large adjacent lobby area was also perfect for a catering setup and a space to break from the buzz in the room. Although it can be harder to find a sponsor that works for a university (thanks <a href="https://twitter.com/corey_snow" target="_blank">Corey</a>!), one significant advantage of being on campus is that you can target Salesforce newcomers and promote through existing student channels.
 
 <img src="/assets/pics/sfhackx-foodsetup.JPG" alt="Food setup at SFHackX"/>
 
-> Coding really does build an appetite! (via @twtinc)
+> Coding really does build an appetite! (via <a href="https://twitter.com/twtinc" target="_blank">@twtinc</a>)
 
 ### Get the word out
-Even a perfectly planned and executed hackathon will not be successful unless you can get the word out to your target audience. Your sponsors will most likely have some good ideas and existing channels for doing so, but it helps to also have a branded website or a Meetup event to direct users to for sign up. Think of a good hashtag (like #SFHackX) and start using it as early as possible!
+Even a perfectly planned and executed hackathon will not be successful unless you can get the word out to your target audience. Your sponsors will most likely have some good ideas and existing channels for doing so, but it helps to also have a <a href="http://sfhackx.com/" target="_blank">branded website</a> or a Meetup event to direct users to for sign up. Think of a good hashtag (like <a href="https://twitter.com/hashtag/sfhackx" target="_blank">#SFHackX</a>) and start using it as early as possible!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">We’ve got <a href="https://twitter.com/SalesforceAdmns?ref_src=twsrc%5Etfw">@SalesforceAdmns</a> &amp; <a href="https://twitter.com/SalesforceDevs?ref_src=twsrc%5Etfw">@SalesforceDevs</a> here at <a href="https://twitter.com/hashtag/SFHackX?src=hash&amp;ref_src=twsrc%5Etfw">#SFHackX</a>! <a href="https://t.co/xMvqc2s01I">pic.twitter.com/xMvqc2s01I</a></p>&mdash; Slalom Boston (@SlalomBoston) <a href="https://twitter.com/SlalomBoston/status/1002969806864297984?ref_src=twsrc%5Etfw">June 2, 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -61,7 +61,7 @@ For this year’s SFHackX, we chose to provide 2 separate tracks for participant
 
 <img src="/assets/pics/sfhackx-hackcards.JPG" alt="Hacks for SFHackX '18"/>
 
-> Hack cards and stickers galore (via Kartik)
+> Hack cards and stickers galore (via <a href="https://twitter.com/logontokartik" target="_blank">Kartik</a>)
 
 So what are you waiting for? Make it your personal goal for the year to organize a hackathon for your colleagues, your local Developer Group, or a local meetup, and share your best practices with the rest of us!
 
