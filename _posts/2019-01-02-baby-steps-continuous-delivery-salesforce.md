@@ -107,7 +107,7 @@ Here again, a number of tools (such as <a href="https://www.seleniumhq.org/" tar
 
 With the Salesforce CLI here to stay and new features being added <a href="https://developer.salesforce.com/media/salesforce-cli/releasenotes.html" target="_blank">weekly</a>, consider adding it to the New Year’s resolutions for your org — Those deployment fish will do just fine without you!
 
-<p style="text-align: center"><img src="/assets/pics/cd-fish.png" alt="Astro with Deployment Fish" style="width: 30%;float: left;"/></p>
+<p style="text-align: center"><img src="/assets/pics/cd-fish.png" alt="Astro with Deployment Fish" style="width: 30%;"/></p>
 
 ---
 
