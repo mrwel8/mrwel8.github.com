@@ -25,17 +25,17 @@ It goes without saying that the most important aspect of any deployment is what 
 
 That’s where source control comes in. Just like any of the safe & versionable document storage systems we’re all used to (SharePoint, Dropbox), all the work done on any Salesforce org should be immediately available and up-to-date with the customizations and code that other folks are working on.
 
-To start off, let’s grab everything from an org and save it (also known as “retrieve” or “pull down”). Logically, there are only 3 steps involved, and each corresponds to one command in either the <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm" target="_blank">Salesforce CLI</a> or <a href="https://help.github.com/articles/set-up-git/" target="_blank">Git</a>¹:
+To start off, let’s grab everything from an org and save it (also known as “retrieve” or “pull down”). Logically, there are only 3 steps involved, and each corresponds to one command in either the <a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm" target="_blank">Salesforce CLI</a> or <a href="https://help.github.com/articles/set-up-git/" target="_blank">Git</a><a id="link1" href="#quote1">¹</a>:
 
-1. Login: sfdx force:auth:web:login
-2. Retrieve: sfdx force:mdapi:retrieve
-3. Save: git commit
+1. Login: `sfdx force:auth:web:login`
+2. Retrieve: `sfdx force:mdapi:retrieve`
+3. Save: `git commit`
 
 ### Level 2: What comes down must go up
 What’s the opposite of retrieving/pulling? Deploying/pushing! Given that the source has everything that needs to be deployed from step 3 above, only two steps are needed here:
 
-1. Login: sfdx force:auth:web:login
-2. Deploy: sfdx force:mdapi:deploy
+1. Login: `sfdx force:auth:web:login`
+2. Deploy: `sfdx force:mdapi:deploy`
 
 ### Level 3: The party pooper
 Now that you’ve drastically simplified the process of retrieving & deploying Salesforce customizations & code, everyone is happy and everything is working in perfect harmony!
@@ -44,7 +44,7 @@ Except for that one time.
 
 ---
 
-In an effort to delight the business first thing Monday morning, Jake² spent all Sunday on a new flow that automatically updates a Contact’s address from its Account. He ran a few tests right around midnight and everything looked good, so he used the brand new process to get it to production in no time at all! Having worked overtime, he decided to set his alarm a little later than usual, and looked forward to a standing ovation when he strolled into work the next morning.
+In an effort to delight the business first thing Monday morning, Jake<a id="link2" href="#quote2">²</a> spent all Sunday on a new flow that automatically updates a Contact’s address from its Account. He ran a few tests right around midnight and everything looked good, so he used the brand new process to get it to production in no time at all! Having worked overtime, he decided to set his alarm a little later than usual, and looked forward to a standing ovation when he strolled into work the next morning.
 
 Fast-forward a few hours, and Jake’s supervisor Brianna has 10 urgent emails from the business about users not being able to edit Contacts in Salesforce, and no idea what happened other than Jake’s name being at the top of the Setup Audit Trail. Sound familiar?
 
@@ -57,9 +57,9 @@ Using <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> as an examp
 ### Level 4: A requirement appears!
 In addition to the CLI referenced above, the ability to quickly spin up an environment for any purpose was a significant new feature delivered with Salesforce DX. Instead of having to create a new sandbox from production or go through the Developer org signup form, a scratch org can be setup with test data and users in 3 steps:
 
-1. Create the environment: sfdx force:org:create
-2. Import test data: sfdx force:data:tree:import
-3. Create user(s): sfdx force:user:create
+1. Create the environment: `sfdx force:org:create`
+2. Import test data: `sfdx force:data:tree:import`
+3. Create user(s): `sfdx force:user:create`
 
 With this new org, admins and developers alike can then use the steps from Levels 1 and 2 above to deploy and retrieve their work on request. Because of the simplicity of this process, they can also spin up new environments to isolate each and every bug to fix or feature request.
 
@@ -96,14 +96,17 @@ The key to this challenge is **automated testing** which consists of code that c
 Here again, a number of tools (such as <a href="https://www.seleniumhq.org/" target="_blank">Selenium</a>) exist to help build these checks, but it’s important to note that they must reach beyond Apex and Lightning tests, which are not geared towards point-and-click configurations. Nevertheless, even with just a subset of your source covered, the final 3 levels are then within reach:
 
 **7. Continuous Integration**: Run automated tests in one sandbox (commonly called “System Integration Testing”, or “SIT” for short) at least daily
+
 **8. Continuous Integration II** (sometimes also called “Continuous Delivery”): Automate tests and deployments to all sandboxes
+
 **9. Continuous Deployment**: Automate tests and deployments in all sandboxes + production
 
 With the Salesforce CLI here to stay and new features being added <a href="https://developer.salesforce.com/media/salesforce-cli/releasenotes.html" target="_blank">weekly</a>, consider adding it to the New Year’s resolutions for your org — Those deployment fish will do just fine without you!
 
 ---
 
-_^¹ The commands listed are tailored to non-<a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm" target="_blank">scratch orgs</a>, such as sandboxes or developer orgs, and are slightly simplified for clarity. For complete details, check out this <a href="https://www.slalom.com/thinking/continuous-integration-in-salesforce" target="_blank">foolproof step-by-step guide</a> and the following Trailhead modules on <a href="https://trailhead.salesforce.com/content/learn/modules/sfdx_app_dev/sfdx_app_dev_setup_dx?trail_id=sfdx_get_started" target="_blank">setting up the Salesforce CLI</a> and <a href="https://trailhead.salesforce.com/content/learn/modules/git-and-git-hub-basics?trail_id=sfdx_get_started" target="_blank">Git basics</a>.
-^² Any resemblance to actual persons or actual events is purely coincidental 😉_
+_<a id="quote1" href="#link1">^¹</a> The commands listed are tailored to non-<a href="https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm" target="_blank">scratch orgs</a>, such as sandboxes or developer orgs, and are slightly simplified for clarity. For complete details, check out this <a href="https://www.slalom.com/thinking/continuous-integration-in-salesforce" target="_blank">foolproof step-by-step guide</a> and the following Trailhead modules on <a href="https://trailhead.salesforce.com/content/learn/modules/sfdx_app_dev/sfdx_app_dev_setup_dx?trail_id=sfdx_get_started" target="_blank">setting up the Salesforce CLI</a> and <a href="https://trailhead.salesforce.com/content/learn/modules/git-and-git-hub-basics?trail_id=sfdx_get_started" target="_blank">Git basics</a>._
+
+_<a id="quote2" href="#link2">^²</a> Any resemblance to actual persons or actual events is purely coincidental_ 😉
 
 > Thanks to Marty Y. Chang, Keerthana Pachalla, and Venks Pai.
