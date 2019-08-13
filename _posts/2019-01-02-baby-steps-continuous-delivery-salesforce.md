@@ -52,7 +52,7 @@ Fast-forward a few hours, and Jake’s supervisor Brianna has 10 urgent emails f
 
 Whether it’s a point-and-click configuration or a line of code, anyone’s work should always be checked by someone else. To this extent, nearly all source control tools include the concept of a code review in order to have others validate what is being saved.
 
-![cd-pipeline.png]({{site.baseurl}}/_posts/cd-pipeline.png)
+<img src="_posts/cd-pipeline.png" alt="Diagram of pipeline"/>
 
 Using <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> as an example, Brianna can prevent any more blunders by requiring Jake to create a pull request any time he wants to change something in the source. From this request, she can easily see what Jake changed and leave comments directly on the component or line that may look wrong. Once the back and forth is complete and Brianna leaves her “<a href="https://medium.freecodecamp.org/what-do-cryptic-github-comments-mean-9c1912bcc0a4" target="_blank">LGTM</a>”, only then can Jake deploy his work to production.
 
@@ -93,6 +93,8 @@ Looking back on the promise of Continuous Delivery, we’ve therefore achieved t
 ### Levels 7, 8, 9: Quality over quantity
 For all the hours and emails saved by setting up code reviews (Level 3), sometimes there are things that mere mortals like Brianna and Jake may miss or simply cannot anticipate. Sure, a thorough QA check of all user workflows wouldn’t let anything slip by, but at what cost?
 
+<img src="_posts/cd-gif.gif" alt="Diagram of pipeline as a gif"/>
+
 The key to this challenge is **automated testing** which consists of code that can be run on demand, both in the UI and against backend services, to validate that the work being done meets quality standards and does not break existing integrations and user workflows.
 
 Here again, a number of tools (such as <a href="https://www.seleniumhq.org/" target="_blank">Selenium</a>) exist to help build these checks, but it’s important to note that they must reach beyond Apex and Lightning tests, which are not geared towards point-and-click configurations. Nevertheless, even with just a subset of your source covered, the final 3 levels are then within reach:
@@ -104,6 +106,8 @@ Here again, a number of tools (such as <a href="https://www.seleniumhq.org/" tar
 **9. Continuous Deployment**: Automate tests and deployments in all sandboxes + production
 
 With the Salesforce CLI here to stay and new features being added <a href="https://developer.salesforce.com/media/salesforce-cli/releasenotes.html" target="_blank">weekly</a>, consider adding it to the New Year’s resolutions for your org — Those deployment fish will do just fine without you!
+
+<img src="_posts/cd-fish.png" alt="Astro with Deployment Fish"/>
 
 ---
 
