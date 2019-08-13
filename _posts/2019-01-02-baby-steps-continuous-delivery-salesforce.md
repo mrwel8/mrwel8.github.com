@@ -52,6 +52,8 @@ Fast-forward a few hours, and Jake’s supervisor Brianna has 10 urgent emails f
 
 Whether it’s a point-and-click configuration or a line of code, anyone’s work should always be checked by someone else. To this extent, nearly all source control tools include the concept of a code review in order to have others validate what is being saved.
 
+![cd-pipeline.png]({{site.baseurl}}/_posts/cd-pipeline.png)
+
 Using <a href="https://bitbucket.org/" target="_blank">Bitbucket</a> as an example, Brianna can prevent any more blunders by requiring Jake to create a pull request any time he wants to change something in the source. From this request, she can easily see what Jake changed and leave comments directly on the component or line that may look wrong. Once the back and forth is complete and Brianna leaves her “<a href="https://medium.freecodecamp.org/what-do-cryptic-github-comments-mean-9c1912bcc0a4" target="_blank">LGTM</a>”, only then can Jake deploy his work to production.
 
 ### Level 4: A requirement appears!
