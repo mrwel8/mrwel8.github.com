@@ -1,9 +1,10 @@
 ---
-published: false
+published: true
 layout: post
 date: '2019-01-02'
 comments: true
 permalink: continuous-delivery-salesforce
+title: Baby Steps in Continuous Delivery for Salesforce
 ---
 _Taking on the DevOps boss in 9 levels_
 
